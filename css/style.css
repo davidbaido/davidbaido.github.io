@@ -1,0 +1,234 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: relative;
+
+}
+nav {
+    height: 50px;
+    background-color: #212121;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 13px 70px;
+    list-style-type: none;
+    
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 38px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+    top: 50px;
+}
+
+.subheader .sublink {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .suboff {
+    margin-top: 10px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.subheader .subcall {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+}
+
+.subheader .subphone {
+    display: block;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 19px;
+}
+
+.subheader .subbtn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo {
+    padding: 150px 0 135px 0;
+    min-height: 799px;
+    background: url(../img/background/woman_with_car1.png) center center/cover no-repeat;
+}
+
+.promo .promoheader {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.promo .promosub { 
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promotxt {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+
+.promo .promoz {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* №№№№№№№№№№№№№№№ */
+
+.reason {
+    height: 900px;
+    padding: 70px 0 68px 0;
+}
+
+.reason .tablo {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reason h2 {
+    margin-top: 38px;
+    margin-bottom: 40px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    display: flex;
+    margin: 35px 26px 0 0;
+}
+.reason .round {
+    margin-right: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+}
+
+.reason .head {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+
+}
+
+.reason .subhead {
+    color: #202020;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.reason .descr {
+    margin-right: 100px;
+}
